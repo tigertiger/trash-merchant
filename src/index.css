@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Reenie Beanie', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  padding-top:3%;
+}
+
+h1 {
+  padding-bottom:20px;
+}
+
+#trashGrid {
+  margin:auto;
+  width:80%;
+  display:grid;
+  grid-template-areas:
+  'main main main';
+}
+
+.card {
+  width:400px;
+  padding:10px;
+  margin:10px auto;
+}
