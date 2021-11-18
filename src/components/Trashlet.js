@@ -7,6 +7,7 @@ function Trashlet(props){
     <div className="card">
       <h3>{props.what}</h3>
       <p>{props.details}</p>
+      <p>{props.quantity}</p>
     </div>
     </>
   );
